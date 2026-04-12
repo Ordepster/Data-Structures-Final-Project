@@ -1,0 +1,25 @@
+April 9th:
+- added to addStudent function in main.cpp
+- cin >> name; -> getline(cin, name);
+- cin.ignore(); used to clear leftover newlines in buffer and allow input
+- Feature to add students with a first, middle, and last name 
+
+April 11th:
+- added to algorithms.h, algorithms.cpp, and main.cpp 
+- added an extra feature to sort by GPA (Highest to lowest)
+- functions based on merge() and mergeSort()
+- added 7th menu option for Sort by GPA
+- changed exit to case 7 and made sorting by GPA case 6
+- loop condition updated to while (choice != 7);
+
+
+April 12th:
+- adding to student.h, student.cpp, and main.cpp. 
+- added an update student feature
+- Enter the id of a student to update and choose to update name, GPA, or both (Second menu)
+- added setters void setName(string newname); and void setGPA(double newGPA); to Student.h
+- added updateStudent() function to main
+- if there are no students, prints out message
+- added 8th menu option for Update Student
+- changed exit to case 8 and made Update Student case 7
+- loop condition updated to while (choice != 8);
